@@ -1,6 +1,6 @@
 import os
 
-SUBCLIPS = "formatted"
+SUBCLIPS = "subclips"
 for file in os.listdir(SUBCLIPS):
     if file.endswith(".mp4"):
         if len(file.split(".")[0]) <= 4:
