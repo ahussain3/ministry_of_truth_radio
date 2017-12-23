@@ -1,5 +1,6 @@
 .DS_Store
-data/
+data/*
 subclips/
 *.mp4
-
+.vscode
+.ipynb_checkpoints
