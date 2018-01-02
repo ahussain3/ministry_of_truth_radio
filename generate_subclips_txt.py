@@ -9,7 +9,7 @@ for file in os.listdir(SUBCLIPS):
             os.rename(os.path.join(SUBCLIPS, file), os.path.join(SUBCLIPS, new_name))
 
 with open("subclips.txt", "w") as f:
-    for file in os.listdir(SUBCLIPS):
+    for file in sorted(os.listdir(SUBCLIPS)):
         if file.startswith("."):
             continue
         f.write("file '{}'\n".format(os.path.join(SUBCLIPS, file)))
