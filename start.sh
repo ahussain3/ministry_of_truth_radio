@@ -5,8 +5,8 @@ echo "Generating cuts.json..."
 python3 ../generate_cuts.py "f_"$1 $2 "f_"$3 $4
 
 echo "Formatting video files..."
-../format_video.sh $1
-../format_video.sh $3
+../format_video.sh $1 $5
+../format_video.sh $3 $5
 
 echo "Generating subclips"
 mkdir subclips
