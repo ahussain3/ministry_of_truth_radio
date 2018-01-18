@@ -1,3 +1,5 @@
+You can see examples of videos produced through this process by clicking [here](https://www.youtube.com/watch?v=pdIJO2LIIog&t=6s)
+
 This is a quick set of scripts to allow you to automatically cut between two camera angles, based on which person is speaking more loudly.
 
 ![diagram](./diagram.png)
